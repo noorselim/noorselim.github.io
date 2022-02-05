@@ -2,14 +2,15 @@ html{
     background:beige;
     display:block;
     margin:100px;
-    cursor: url(sunshine.png), auto;
-}
+    cursor: url(sunshine32px.png), auto; size: 100px 100px;}
+
 
 
 h1{
     color:burlywood;
     font-family: safira march personal use;
     font-size:48px;
+   
 
 }
 
@@ -61,6 +62,7 @@ a:hover{
     text-decoration: none;
     background-color:burlywood;
     color: beige;
+    cursor: url(darksun32px.png), pointer; size: 100px 100px;
 }
 
 main{
