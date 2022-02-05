@@ -1,7 +1,21 @@
 html{
     background:beige;
+    display:block;
+    margin:30px;
 }
+body{
+    cursor: url(sunshine.png), auto;
+ }
 
 h1{
-    color:burlywood
+    color:burlywood;
+    font-family: safira march personal use;
+
 }
+
+p{
+    color:burlywood;
+    font-family: safira march personal use;
+
+}
+
