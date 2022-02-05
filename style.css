@@ -13,9 +13,20 @@ h1{
 
 }
 
-p{
+.classmates{
     color:burlywood;
     font-family: safira march personal use;
 
+}
+
+.name{
+    color:burlywood;
+    font-family: safira march personal use;
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+a{
+    color:burlywood;
 }
 
