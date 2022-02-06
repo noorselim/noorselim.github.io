@@ -1,0 +1,87 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 0px solid #ccc; /* Gray border */
+    border-radius: 0px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: lambda;
+    /* background-color: rgba(229, 243, 215, 0.61); */
+    
+
+  }
+
+  #name{
+      background-color:#D4F0F0;
+  }
+  #person{
+      background-color:#ACE2E7;
+  }
+
+  
+
+  #place{
+    background-color: #8FCACA;
+  }
+
+  #food{
+    background-color: #CCE2CB;
+}
+
+#song{
+    background-color: #B6CFB6;
+}
+
+#day{
+    background-color: #97C1A9;
+}
+
+
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: lambda;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: white;
+    font-family: lambda;
+    color:white;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 50px;
+    
+    padding-right: 300px;
+    padding-left: 300px;
+    font-family: lambda;
+
+  }
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    text-align: center;
+    font-family: lambda;
+    font-size: 70px;
+}
+
+a{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
