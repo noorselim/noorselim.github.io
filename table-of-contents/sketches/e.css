@@ -1,0 +1,46 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight:200;
+  }
+  
+  .wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align:center;
+  }
+  
+  h1{
+  margin: 0;
+  font-weight:800;
+  font-size:24px;
+  }
+  
+  .entries {
+    margin-bottom: 60px;
+  }
+  
+  
+  .heading {
+      margin-bottom: 60px;
+    }
+  
+  .chapter{
+      letter-spacing: 10px;
+  }
+  
+  
+  p {
+      margin: 0;
+    }
+    
+    .page {
+      margin-top: 10px;
+    }
+    
+    
+    span {
+      display: block;
+    }
