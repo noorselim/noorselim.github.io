@@ -96,8 +96,9 @@ img.image6{
 
 p.text7{
     grid-row-start: 18;
-    grid-column:5/9;
-    font-size:15px;
+    grid-column:5/10;
+    font-size:14px;
     z-index: 5;
     color:gray;
+    padding-top: 50px;
 }
