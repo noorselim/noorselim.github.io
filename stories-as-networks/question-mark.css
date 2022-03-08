@@ -1,0 +1,167 @@
+html{
+    font-family: 'Inconsolata', monospace;
+    color:white;
+    background-color: black;
+    
+}
+
+.topborder{
+    font-size:2vw;
+    letter-spacing: 2vw;
+    margin: 0;
+    margin-top: 20px;
+    animation: shimmy 0.5s infinite running;
+  animation-direction: normal;
+}
+
+p.head{
+    margin: 0;
+}
+
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(-80px, 0px);
+  }
+}
+
+
+
+
+h1{
+    font-size: 6vw;
+    text-align: right;
+    color:#EF0191;
+    margin-right:5vw;
+    margin-top:100px;
+    text-transform: uppercase;
+}
+
+p.body{
+    font-size:4vw;
+    font-weight: 300;
+    margin-top:50px;
+    margin-left: 20vw;
+    margin-right:5vw;
+    text-align: right;
+    font-style: italic;
+    user-select:none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:inline;
+    font-size: 5vw;
+}
+
+.table{
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selected{
+    text-decoration: underline;
+}
+
+a{
+    margin-top:0px;
+    margin-left: auto;
+    margin-right:auto; 
+    padding-left: auto;
+    padding-right:auto;
+    /* font-size: 10vw; */
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+mark{
+    color:#EF0191;
+    background-color: black;
+    cursor:help;
+    text-decoration: underline;
+    -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+mark:hover{
+    color:white;
+    background-color:#EF0191;
+    font-size: 5vw;
+    text-decoration: none;
+}
+
+mark:after{
+    content:"question mark"
+}
+
+mark:hover:after{
+    content:"???????????"
+}
+
+.question{
+    color:#EF0191;
+    background-color: black;
+    cursor:help;
+    text-decoration: underline;
+    -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+.question:hover{
+    color:white;
+    background-color:#EF0191;
+    font-size: 5vw;
+    text-decoration: none;
+
+}
+
+.question:after{
+    content:"question"
+}
+
+.question:hover:after{
+    content:"????????"
+}
+
+
+
+@media (max-width: 650px) {
+    html {
+      background-color: white;
+      color:  black;
+    }
+
+    a{
+        color:black;
+    }
+
+    mark{
+        background-color:white;
+    }
+
+    mark:hover{
+        color:black;
+        background-color:#EF0191;
+    }
+
+    .question{
+        background-color:white;
+    }
+
+    .question:hover{
+        color:black;
+        background-color:#EF0191;
+    }
+}

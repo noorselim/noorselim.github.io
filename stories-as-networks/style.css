@@ -1,0 +1,101 @@
+html{
+    font-family: 'Inconsolata', monospace;    color:white;
+    background-color: black;
+    user-select:none;
+}
+
+/* .wrapper{
+    display:grid;
+    grid-template-columns: repeat(10,10vw);
+    grid-template-rows: repeat(10,8vw);
+    max-width: 100vw;
+    max-height:95vh;
+} */
+
+
+h1.text8{
+    /* grid-row-start: 5;
+    grid-column: 2/10; */
+    font-size:8vw;
+    margin-top:300px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+h1.symbols{
+    /* grid-row-start: 5;
+    grid-column: 2/10; */
+    font-size:8vw;
+    margin-top:300px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+a{
+    margin-top:0px;
+    margin-left: auto;
+    margin-right:auto; 
+    padding-left: auto;
+    padding-right:auto;
+    font-size: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+/* .text8{
+    display:none;
+}
+ 
+.show {
+    display:flex;
+}
+
+.hide {
+    display:none;
+} */
+
+
+/* ------ */
+/* .symbols{
+    cursor:help;
+   
+} */
+
+.symbols:hover{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.symbols:after{
+    content:"ON PUNCTUATION"
+}
+
+.symbols:hover:after{
+    content:"? ! ' . , ; : "
+}
+
+@media (max-width: 650px) {
+    html {
+      background-color: white;
+      color:  black;
+    }
+
+    a{
+        color:black;
+    }
+
+    .symbols:hover{
+        color:black;
+
+}
+
+
+
+
+}
