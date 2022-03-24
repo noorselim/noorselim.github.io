@@ -83,3 +83,9 @@ main{
     grid-column: 2/2;
 }
 
+
+#number{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
