@@ -1,0 +1,44 @@
+html{
+    background-color: black;
+    color:white;
+    font-family: Gesta;
+} 
+
+    video{
+    width:30vw;
+    margin: 5px;
+}
+
+video:hover{
+    width:50vw;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.info{
+    border: 1px solid white;
+    margin-right:1130px;
+    margin-left:10px;
+    margin-top:10px;
+    box-shadow: 2px 2px 20px white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+h1{
+    margin-top: 10px;
+    margin-bottom:0px;
+    margin-left:10px;
+}
+
+h2{
+    margin-top:0px;
+    margin-left:10px;
+    font-weight: 200;
+}
