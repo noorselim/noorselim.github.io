@@ -4,6 +4,16 @@ html{
     font-family: Gesta;
 } 
 
+.largevid{
+    width:60vw;
+    margin:10px;
+    margin-top: 30px;
+}
+
+.largevid:hover{
+    width:60vw;
+}
+
     video{
     width:30vw;
     margin: 5px;
@@ -19,7 +29,7 @@ video:hover{
 
 .info{
     border: 1px solid white;
-    margin-right:1130px;
+    margin-right:1145px;
     margin-left:10px;
     margin-top:10px;
     box-shadow: 2px 2px 20px white;
@@ -32,13 +42,17 @@ a{
 
 
 h1{
-    margin-top: 10px;
+    margin-top: 3px;
     margin-bottom:0px;
     margin-left:10px;
+    font-weight:300;
+    font-size: 28px;
 }
 
 h2{
     margin-top:0px;
+    margin-bottom:3px;
     margin-left:10px;
     font-weight: 200;
+    font-size: 20px;
 }
