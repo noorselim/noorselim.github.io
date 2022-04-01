@@ -1,0 +1,23 @@
+html {
+    font-family: gallient;
+    font-size: 2vw;
+    padding: 2vw;
+  }
+
+  body {
+    color: white;
+    background: rgb(35, 76, 255);
+    margin-left: 3vw;
+  }
+
+  h1{
+      text-transform: uppercase;
+      font-size: 6vw;
+      margin-bottom: 0px;
+  }
+
+  .info{
+      font-style: italic;
+      
+
+  }
