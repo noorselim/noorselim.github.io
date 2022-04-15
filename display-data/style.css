@@ -1,0 +1,65 @@
+
+body {
+  background-color:  blanchedalmond;
+  margin: 0;
+  padding: 20px;
+}
+
+.movies {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(192, 165, 125);
+}
+
+.genre {
+  opacity: .5;
+  /* mix-blend-mode: color-burn; */
+  color: white;
+  font-size: 22px;
+  font-family: arial;
+  border-radius: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre:hover{
+  transform: scale(1.2);
+}
+
+.genre1 {
+    background-color: rgb(255, 0, 106);
+}
+
+.genre2 {
+  background-color: rgb(192, 56, 255);
+}
+
+.genre3 {
+  background-color: rgb(1, 158, 53);
+}
+
+.genre4 {
+  background-color: rgb(228, 205, 0);
+}
+
+.genre5 {
+  background-color: blue;
+}
+
+.genre6 {
+  background-color: orange;
+}
+
+.genre7 {
+  background-color: rgb(255, 61, 197);
+}
+
+.genre8 {
+  background-color: rgb(83, 224, 182);
+}
