@@ -85,7 +85,7 @@ a{
 .exclamation{
     color:#FF7000;
     background-color: black;
-    cursor:help;
+    /* cursor:help; */
     text-decoration: underline;
     -webkit-transition: font-size .5s ease;
   -moz-transition: font-size .5s ease;
