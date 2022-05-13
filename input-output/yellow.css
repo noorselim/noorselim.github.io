@@ -1,0 +1,49 @@
+body{
+    background-image: url(yellowbg.png);
+}
+
+img{
+    width: 400px;
+    margin-left: 50px;
+    margin-top:100px;
+}
+
+img:hover{
+    cursor:pointer;
+}
+
+button{
+    background: none;
+    color:white;
+    opacity: 100%;
+    border: 3px dotted white;
+    padding: 10px;
+    display: inline;
+border-radius: 40%;
+font-size: 20px;
+font-family: Neue Haas Grotesk Display Pro;
+position: absolute;
+left: 45%;
+top: 20px;
+}
+
+h1{
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: normal;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color:white;
+    margin:200px;
+    user-select: none;
+    text-shadow: 5px 5px 10px rgb(252, 248, 190);
+    margin-bottom: 20px;
+}
+
+a{
+    margin-top: 0;
+    margin-left: 200px;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: white;
+    text-decoration: underline;
+}

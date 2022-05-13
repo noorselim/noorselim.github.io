@@ -1,0 +1,77 @@
+body{
+    background-image: url(colors.png);
+    background-size: 1920px 1080px;
+    font-family: Unicorn;
+font-size: 60px;
+}
+
+
+.tl { 
+    position: absolute; 
+    top: 20%; left: 10%; right: 30%; bottom: 30%; 
+    color: rgb(255, 115, 0);
+    user-select: none;
+}
+
+.tl:hover{
+    cursor:pointer;
+    text-shadow: 10px 10px 20px rgb(255, 255, 255);
+}
+
+.tr { 
+    position: absolute; 
+    top: 20%; left: 70%; right: 0; bottom: 30%; 
+    color: rgb(255, 0, 157);
+    user-select: none;
+
+}
+
+.tr:hover{
+    cursor:pointer;
+    text-shadow: 10px 10px 20px rgb(255, 255, 255);
+
+}
+
+.bl { 
+    position: absolute; top: 70%; left: 10%; right: 30%; bottom: 0; 
+    color: rgb(255, 174, 0);
+    user-select: none;
+
+    }
+
+    .bl:hover{
+        cursor:pointer;
+        text-shadow: 10px 10px 20px rgb(255, 255, 255);
+
+    }
+
+
+.br { 
+    position: absolute; top: 70%; left: 70%; right: 0; bottom: 0; 
+    color: rgb(108, 40, 172);
+    user-select: none;
+
+ } 
+
+ .br:hover{
+    cursor:pointer;
+    text-shadow: 10px 10px 20px rgb(255, 255, 255);
+
+}
+
+
+.mid{
+    position: absolute; top: 45%; left: 43%; right: 0; bottom: 0; 
+}
+
+button{
+    background: none;
+    color:white;
+    opacity: 100%;
+    border: 3px dotted white;
+    padding: 10px;
+    display: inline;
+border-radius: 40%;
+font-size: 20px;
+font-family: Neue Haas Grotesk Display Pro;;
+}

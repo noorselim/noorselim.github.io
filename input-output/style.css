@@ -1,0 +1,131 @@
+body{
+    background-image: url(home.gif);
+}
+
+img{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width:500px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h1{
+    font-family: Unicorn;
+    font-size: 90px;
+    line-height: 1;
+    color:rgb(255, 255, 255);
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+   text-shadow: 5px 5px 10px rgb(252, 248, 190);
+   display: inline;
+   user-select: none;
+}
+
+button{
+    background: none;
+    color:white;
+    opacity: 100%;
+    border: 3px dotted white;
+    padding: 10px;
+    display: inline;
+border-radius: 40%;
+font-size: 20px;
+text-align: right;
+float: right;
+margin: 10px;
+Font-family: Neue Haas Grotesk Display Pro;
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    opacity:100%;
+    width: 1000px;
+    max-width: 50%;
+    Font-family: Neue Haas Grotesk Display Pro;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+color: rebeccapurple;
+user-select: none;
+
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: white;
+    user-select: none;
+
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:rebeccapurple;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
